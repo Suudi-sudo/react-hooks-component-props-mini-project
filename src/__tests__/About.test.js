@@ -28,3 +28,11 @@ test("renders a <p> with the about text", () => {
   expect(p).toBeInTheDocument();
   expect(p.tagName).toBe("P");
 });
+
+const App = () => (
+  <div className="App">
+    <header>Header</header>
+    <aside>Aside</aside>
+    <main>Main Content</main>
+  </div>
+);
